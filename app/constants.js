@@ -1,0 +1,26 @@
+import keyMirror from 'key-mirror';
+
+export default keyMirror({
+	TOKEN_FAILURE: null,
+	DELETE_TOKEN: null,
+	DELETE_TOKEN_SUCCESS: null,
+	LOGIN_FAILURE: null,
+	SET_STATE: null,
+	GET_STATE: null,
+	SET_STORE: null,
+	LOGIN: null,
+	REGISTER: null,
+	GET_FEEDS: null,
+	GET_SUBSCRIBED_FEEDS: null,
+	GET_SUBSCRIBED_ARTICLES: null,
+	ALL_SUBSCRIBED_ARTICLES_LOADED: null,
+	FEED_ARTICLES_LOADED: null,
+	GET_FEED_ARTICLES: null,
+	SUBSCRIBE_FEED: null,
+	UNSUBSCRIBE_FEED: null,
+	GET_ARTICLE: null,
+	ON_AUTH_FORM_FIELD_CHANGE: null,
+	GET_ARTICLE_REQUEST: null,
+	CONNECTION_ONLINE: null,
+	CONNECTION_OFFLINE: null
+})
